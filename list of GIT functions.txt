@@ -1,0 +1,20 @@
+git init: Initialize a new Git repository in the current directory.
+git clone [repository]: Create a local copy of a remote repository.
+git add [file]: Stage changes in a file for commit.
+git commit -m "message": Commit staged changes with a descriptive message.
+git status: Show the current status of the repository, including tracked and untracked files.
+git push: Send committed changes to a remote repository.
+git pull: Fetch and merge changes from a remote repository to the local repository.
+git branch: List all branches in the repository.
+git checkout [branch]: Switch to a different branch.
+git merge [branch]: Combine changes from one branch into the current branch.
+git log: Display a log of all commits in reverse chronological order.
+git reset [file]: Unstage changes in a file, preserving its contents.
+git revert [commit]: Create a new commit that undoes the changes made in a previous commit.
+git remote add [name] [url]: Add a remote repository with a specified name and URL.
+git remote -v: List all remote repositories associated with the current repository.
+git fetch: Download changes from a remote repository without merging.
+git stash: Temporarily save changes that are not ready to be committed.
+git tag [name]: Create a new tag to mark a specific commit in the repository's history.
+git diff: Show the differences between the working directory and the staging area.
+git blame [file]: Display who last modified each line of a file and when.
